@@ -15,8 +15,3 @@ classifiers = [
 dependencies = [
     '''pydantic==2.7.0''',
 ]
-
-[tool.coverage.report]
-exclude_also = [
-    '''if __name__ == ['"]__main__['"]:''',
-]
